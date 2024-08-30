@@ -14,8 +14,8 @@ console.log(isActive, typeof(isActive));
 
 let products = ["Guitars", "Drums", "Pianos"]
 const productDetails = {
-    name: "Music Store"
-    price: 500.00
+    name: "Music Store",
+    price: 500.00,
     inStock: 123
 }
 
