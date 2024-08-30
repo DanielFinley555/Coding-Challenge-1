@@ -49,12 +49,12 @@ console.log("modulus: ", accountBalance);
 let employeeScore1 = 9001;
 let employeeScore2 = 5976;
 
-console.log(employeeScore1 > employeeScore2);
-console.log(employeeScore1 < employeeScore2);
-console.log(employeeScore1 >= employeeScore2);
-console.log(employeeScore1 <= employeeScore2);
-console.log(employeeScore1 === employeeScore2);
-console.log(employeeScore1 !== employeeScore2);
+console.log("Is employeeScore1 higher than eployeeScore2? ", employeeScore1 > employeeScore2);
+console.log("Is employeeScore1 lower than eployeeScore2? ", employeeScore1 < employeeScore2);
+console.log("Is employeeScore1 higher than or equal to eployeeScore2? ", employeeScore1 >= employeeScore2);
+console.log("Is employeeScore1 lower tha or queal to eployeeScore2? ", employeeScore1 <= employeeScore2);
+console.log("Is employeeScore1 equal to eployeeScore2? ", employeeScore1 === employeeScore2);
+console.log("Is employeeScore1 not equal to eployeeScore2? ", employeeScore1 !== employeeScore2);
 
 
 
