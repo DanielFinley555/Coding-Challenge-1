@@ -61,9 +61,8 @@ console.log("Is employeeScore1 not equal to eployeeScore2? ", employeeScore1 !==
 // Task 5: Logical Operators
 
 let hasKeyCard = true
-let hasPermission = false
+let hasPermission = true
 
-console.log(hasKeyCard && hasPermission);
-console.log(hasKeyCard || hasPermission);
-console.log(!hasPermission);
-
+console.log("can access front door?", hasKeyCard || !hasKeyCard);
+console.log("can access bathroom?", hasKeyCard || hasPermission);
+console.log("can access storage room?", hasKeyCard && hasPermission);
