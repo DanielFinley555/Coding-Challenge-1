@@ -44,3 +44,17 @@ console.log("modulus: ", accountBalance);
 
 
 
+// Task 4: Comparison Operators
+
+let employeeScore1 = 9001;
+let employeeScore2 = 5976;
+
+console.log(employeeScore1 > employeeScore2);
+console.log(employeeScore1 < employeeScore2);
+console.log(employeeScore1 >= employeeScore2);
+console.log(employeeScore1 <= employeeScore2);
+console.log(employeeScore1 === employeeScore2);
+console.log(employeeScore1 !== employeeScore2);
+
+
+
